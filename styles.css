@@ -473,3 +473,116 @@ body {
 .mobile .desktop-only {
   display: none !important;
 }
+
+/* --- Catalog-driven picker additions --- */
+
+.shop-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.shop-chip {
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.shop-chip:hover {
+  border-color: var(--accent-2);
+}
+
+.shop-chip.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.rarity-badge {
+  font-size: 9px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.rarity-uncommon { color: #6ad2a6; border-color: #2c5a46; }
+.rarity-rare { color: #5eb2ff; border-color: #24466b; }
+.rarity-legendary { color: #ffb74d; border-color: #6b4a1c; }
+.rarity-mythical, .rarity-mythic { color: #c792ea; border-color: #4d2c6b; }
+.rarity-divine { color: #ffd54f; border-color: #6b5a1c; }
+.rarity-celestial { color: #ff8a80; border-color: #6b2c28; }
+
+.custom-section {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  background: var(--panel-2);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.custom-section[hidden] { display: none; }
+
+.custom-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.custom-grid { max-height: 170px; }
+
+.custom-actions { display: flex; gap: 4px; }
+
+.btn.small,
+.btn-icon.small {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.storage-notice {
+  margin: 0;
+  font-size: 11px;
+  color: var(--accent);
+}
+
+.tier-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.tier-row select {
+  background: var(--panel-2);
+  color: var(--ink);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 6px;
+}
+
+.loading-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+#modalMessage {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
