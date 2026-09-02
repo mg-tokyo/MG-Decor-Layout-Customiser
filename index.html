@@ -119,6 +119,46 @@
     </ul>
   </div>
 
+  <!-- Custom asset editor modal -->
+  <div class="decor-modal" id="editorModal" style="display: none;">
+    <div class="decor-modal-content editor-content">
+      <div class="decor-header">
+        <h3 id="editorTitle">Upload custom asset</h3>
+        <button class="btn-close" id="editorCancel">×</button>
+      </div>
+      <div class="editor-body">
+        <canvas id="editorCanvas" width="420" height="420"></canvas>
+        <div class="editor-controls">
+          <input type="file" id="editorFile" accept="image/png,image/webp,image/jpeg,image/gif">
+          <p class="editor-meta" id="editorMeta">No image selected — choose a file or drop one here.</p>
+          <label>Name
+            <input type="text" id="editorName" maxlength="40" placeholder="My decoration">
+          </label>
+          <label>Width (tiles)
+            <input type="number" id="editorWidth" min="0.1" max="6" step="0.05">
+          </label>
+          <div class="editor-presets">
+            <span>Anchor:</span>
+            <button class="btn small" id="editorPresetDecor">Typical (0.5, 0.8)</button>
+            <button class="btn small" id="editorPresetBottom">Bottom (0.5, 1.0)</button>
+            <button class="btn small" id="editorPresetCenter">Centre (0.5, 0.5)</button>
+          </div>
+          <div class="editor-presets">
+            <span>Size:</span>
+            <button class="btn small" id="editorPresetNative">Native size</button>
+            <button class="btn small" id="editorPresetOneTile">1 tile wide</button>
+          </div>
+          <p class="editor-meta" id="editorAnchorLabel">Anchor: x 0.50 · y 0.80</p>
+          <p class="editor-error" id="editorError" hidden></p>
+          <div class="modal-actions">
+            <button class="btn ghost" id="editorDelete" hidden>Delete</button>
+            <button class="btn" id="editorSave">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <noscript>
     <div class="noscript">This tool requires JavaScript to run.</div>
   </noscript>

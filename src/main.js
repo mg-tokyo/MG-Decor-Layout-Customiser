@@ -9,7 +9,9 @@ import {
 } from './constants.js';
 import { dom, initDom, isMobileDevice, state } from './state.js';
 import * as catalog from './catalog.js';
-import { preloadAll, setAssetVersion } from './textures.js';
+import { preloadAll, registerCustomBlob, setAssetVersion } from './textures.js';
+import { isAvailable, listAssets } from './customAssets/store.js';
+import { deleteAssetById, initEditor, openEditor } from './customAssets/editor.js';
 import { buildTileIndex, buildTilemap, computeRenderBounds } from './map.js';
 import { focusGarden } from './camera.js';
 import { setOnChange } from './placement.js';
@@ -48,6 +50,15 @@ function drawOutlines() {
   state.overlay.addChild(outline);
   state.hoverOutline = new PIXI.Graphics();
   state.overlay.addChild(state.hoverOutline);
+}
+
+async function loadCustomAssets() {
+  const assets = await listAssets();
+  for (const asset of assets) {
+    catalog.registerCustom(asset);
+    registerCustomBlob(asset.id, asset.blob);
+  }
+  if (!isAvailable()) dom.storageNotice.hidden = false;
 }
 
 async function init() {
@@ -92,7 +103,9 @@ async function init() {
 
     dom.slotLabel.textContent = String(GARDEN_SLOT).padStart(2, '0');
     initModal();
-    initPicker();
+    initEditor();
+    initPicker({ openEditor, deleteAsset: deleteAssetById });
+    await loadCustomAssets(); // before loadAutosave so custom placements resolve
     initInput();
     initLayoutIo();
     setOnChange(() => {

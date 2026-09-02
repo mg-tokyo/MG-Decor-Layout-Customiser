@@ -586,3 +586,76 @@ body {
   line-height: 1.5;
   white-space: pre-wrap;
 }
+
+/* --- Custom asset editor --- */
+
+.editor-content {
+  width: min(780px, 94vw);
+}
+
+.editor-body {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+#editorCanvas {
+  background: #0a0f0c;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  touch-action: none;
+  cursor: grab;
+  max-width: 100%;
+}
+
+.editor-controls {
+  flex: 1;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.editor-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--muted);
+}
+
+.editor-controls input[type="text"],
+.editor-controls input[type="number"] {
+  background: #101814;
+  border: 1px solid var(--border);
+  color: var(--ink);
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.editor-controls input[type="file"] {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.editor-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.editor-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.editor-error {
+  margin: 0;
+  color: #ff6b6b;
+  font-size: 12px;
+}
