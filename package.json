@@ -1,0 +1,14 @@
+{
+  "name": "mg-decor-layout-customiser",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/",
+    "sync": "node scripts/sync-game-assets.mjs",
+    "sync:check": "node scripts/sync-game-assets.mjs --check",
+    "dev": "node scripts/dev-server.mjs"
+  }
+}
