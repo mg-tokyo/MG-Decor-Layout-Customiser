@@ -17,10 +17,15 @@
 <body>
   <!-- Full-screen canvas -->
   <div class="canvas-wrap" id="canvasWrap">
-    <div class="loading" id="loadingState">Loading assets...</div>
+    <div class="loading" id="loadingState">
+      <div class="loading-inner">
+        <span id="loadingText">Loading assets…</span>
+        <button class="btn" id="retryBtn" hidden>Retry</button>
+      </div>
+    </div>
   </div>
 
-  <!-- Minimal overlay UI - top right -->
+  <!-- Minimal overlay UI - top -->
   <div class="overlay-controls">
     <button class="btn" id="resetView">Reset View</button>
     <button class="btn" id="exportBtn">Export</button>
@@ -33,10 +38,20 @@
   <div class="decor-modal" id="decorModal" style="display: none;">
     <div class="decor-modal-content">
       <div class="decor-header">
-        <h3 id="modalTitleLabel">Select Sprite</h3>
+        <h3 id="modalTitleLabel">Select Decor</h3>
         <button class="btn-close" id="closeDecorModal">×</button>
       </div>
-      <input id="searchDecor" type="search" placeholder="Search decor...">
+      <input id="searchDecor" type="search" placeholder="Search decor…">
+      <div class="shop-filters" id="shopFilters"></div>
+      <div class="custom-section" id="customSection" hidden>
+        <div class="custom-section-header">
+          <span>Custom assets</span>
+          <button class="btn small" id="uploadAssetBtn">Upload image</button>
+        </div>
+        <p class="storage-notice" id="storageNotice" hidden>
+          Storage unavailable — custom assets last for this session only.</p>
+        <div class="decor-grid custom-grid" id="customList"></div>
+      </div>
       <div class="decor-grid" id="decorList"></div>
       <div class="decor-footer">
         <div class="selection-preview" id="selectionPreview"></div>
@@ -44,10 +59,14 @@
           <span id="selectedName">None selected</span>
           <span id="rotationLabel">Rotation: 0°</span>
         </div>
-      </div>
-      <div class="mutation-panel" id="mutationPanel" style="display: none;">
-        <h4>Mutations</h4>
-        <div class="mutation-list" id="mutationList"></div>
+        <div class="tier-row" id="tierRow" hidden>
+          <label for="tierSelect">Tier</label>
+          <select id="tierSelect"></select>
+        </div>
+        <div class="rotation-controls">
+          <button class="btn-icon" id="rotateBtn" title="Rotate (R)">↻</button>
+          <button class="btn-icon" id="flipBtn" title="Flip (F)">⇋</button>
+        </div>
       </div>
     </div>
   </div>
@@ -58,16 +77,17 @@
     <span>Slot: <strong id="slotLabel">00</strong></span>
   </div>
 
+  <!-- Message / confirm modal -->
   <div class="modal" id="modal" aria-hidden="true">
     <div class="modal-card">
       <header>
-        <h3 id="modalTitle">Export</h3>
+        <h3 id="modalTitle">Notice</h3>
         <button class="btn ghost" id="modalClose">Close</button>
       </header>
-      <textarea id="modalText" spellcheck="false"></textarea>
+      <p id="modalMessage"></p>
       <div class="modal-actions">
-        <button class="btn" id="modalPrimary">Copy</button>
-        <button class="btn ghost" id="modalSecondary">Download</button>
+        <button class="btn ghost" id="modalSecondary">Cancel</button>
+        <button class="btn" id="modalPrimary">OK</button>
       </div>
     </div>
   </div>
@@ -82,7 +102,8 @@
       <li><strong>Right Click:</strong> Remove</li>
       <li><strong>Hold + Drag:</strong> Pan Camera</li>
       <li><strong>Spacebar + Drag:</strong> Paint Multiple Tiles</li>
-      <li><strong>Hover + R:</strong> Rotate Item</li>
+      <li><strong>R / Shift+R:</strong> Rotate Item</li>
+      <li><strong>F:</strong> Flip Item</li>
       <li><strong>Space / Esc:</strong> Unselect</li>
       <li><strong>D:</strong> Decor Menu</li>
       <li><strong>Scroll:</strong> Zoom</li>
@@ -93,7 +114,7 @@
       <li><strong>Tap:</strong> Place / Select</li>
       <li><strong>Long Press:</strong> Remove Item</li>
       <li><strong>Hold + Drag:</strong> Pan Camera</li>
-      <li><strong>Double Tap:</strong> Rotate Item (90°)</li>
+      <li><strong>Double Tap:</strong> Rotate Item</li>
       <li><strong>Pinch:</strong> Zoom</li>
     </ul>
   </div>
@@ -104,7 +125,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/pixi.js@8.6.2/dist/pixi.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@pixi/tilemap@5.0.0/dist/tilemap.min.js"></script>
-  <script src="app.js"></script>
+  <script type="module" src="src/main.js"></script>
 </body>
 
 </html>
