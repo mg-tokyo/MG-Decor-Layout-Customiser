@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "gameVersion": "1073",
-  "generatedAt": "2026-09-02T02:27:33.640Z",
+  "gameVersion": "1082",
+  "generatedAt": "2026-09-02T10:29:11.771Z",
   "tileSize": 256,
   "edgeSnapDecorIds": [
     "ColoredStringLights",
@@ -904,13 +904,13 @@
     },
     "WoodStoolShort": {
       "file": "sprites/decor/WoodStoolShort.png",
-      "w": 100,
-      "h": 105,
+      "w": 199,
+      "h": 209,
       "anchor": {
         "x": 0.496928,
         "y": 0.723083
       },
-      "visualBaselineY": 0.8857142857142857
+      "visualBaselineY": 0.8899521531100478
     },
     "WoodWindmill": {
       "file": "sprites/decor/WoodWindmill.png",
