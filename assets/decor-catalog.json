@@ -1,0 +1,1926 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1072",
+  "generatedAt": "2026-09-02T01:01:14.303Z",
+  "tileSize": 256,
+  "edgeSnapDecorIds": [
+    "ColoredStringLights",
+    "StringLights",
+    "WindchimeMoon",
+    "WindchimeStar",
+    "PaperLantern",
+    "FanousLantern"
+  ],
+  "sprites": {
+    "Birdhouse": {
+      "file": "sprites/decor/Birdhouse.png",
+      "w": 152,
+      "h": 336,
+      "anchor": {
+        "x": 0.513043,
+        "y": 0.89
+      },
+      "visualBaselineY": 0.9880952380952381
+    },
+    "Cauldron": {
+      "file": "sprites/decor/Cauldron.png",
+      "w": 558,
+      "h": 640,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7478005865102639
+      },
+      "visualBaselineY": 0.9734375
+    },
+    "ColoredStringLights": {
+      "file": "sprites/decor/ColoredStringLights.png",
+      "w": 299,
+      "h": 325,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96615
+      },
+      "visualBaselineY": 0.9507692307692308
+    },
+    "ColoredStringLightsSideways": {
+      "file": "sprites/decor/ColoredStringLightsSideways.png",
+      "w": 122,
+      "h": 586,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.76
+      },
+      "visualBaselineY": 0.9897610921501706
+    },
+    "DecorShed": {
+      "file": "sprites/decor/DecorShed.png",
+      "w": 271,
+      "h": 455,
+      "anchor": {
+        "x": 0.501845,
+        "y": 0.755
+      },
+      "visualBaselineY": 0.9802197802197802
+    },
+    "DecorShed_1": {
+      "file": "sprites/decor/DecorShed_1.png",
+      "w": 271,
+      "h": 535,
+      "anchor": {
+        "x": 0.501845,
+        "y": 0.79
+      },
+      "visualBaselineY": 0.983177570093458
+    },
+    "DecorShed_2": {
+      "file": "sprites/decor/DecorShed_2.png",
+      "w": 271,
+      "h": 605,
+      "anchor": {
+        "x": 0.50185,
+        "y": 0.814
+      },
+      "visualBaselineY": 0.9851239669421488
+    },
+    "FanousLantern": {
+      "file": "sprites/decor/FanousLantern.png",
+      "w": 299,
+      "h": 325,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96615
+      },
+      "visualBaselineY": 0.9507692307692308
+    },
+    "FanousLanternSideways": {
+      "file": "sprites/decor/FanousLanternSideways.png",
+      "w": 223,
+      "h": 586,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.76
+      },
+      "visualBaselineY": 0.9726962457337884
+    },
+    "FeedingTrough": {
+      "file": "sprites/decor/FeedingTrough.png",
+      "w": 251,
+      "h": 264,
+      "anchor": {
+        "x": 0.502,
+        "y": 0.58
+      },
+      "visualBaselineY": 0.9772727272727273
+    },
+    "HayBale": {
+      "file": "sprites/decor/HayBale.png",
+      "w": 271,
+      "h": 472,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.74
+      },
+      "visualBaselineY": 0.9872881355932204
+    },
+    "HayBaleSideways": {
+      "file": "sprites/decor/HayBaleSideways.png",
+      "w": 271,
+      "h": 472,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.74
+      },
+      "visualBaselineY": 0.9872881355932204
+    },
+    "LargeGravestone": {
+      "file": "sprites/decor/LargeGravestone.png",
+      "w": 155,
+      "h": 231,
+      "anchor": {
+        "x": 0.512987,
+        "y": 0.88
+      },
+      "visualBaselineY": 0.9826839826839827
+    },
+    "LargeGravestoneSideways": {
+      "file": "sprites/decor/LargeGravestoneSideways.png",
+      "w": 64,
+      "h": 252,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.757937
+      },
+      "visualBaselineY": 0.9841269841269841
+    },
+    "LargeRock": {
+      "file": "sprites/decor/LargeRock.png",
+      "w": 244,
+      "h": 213,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "visualBaselineY": 0.9624413145539906
+    },
+    "MarbleArch": {
+      "file": "sprites/decor/MarbleArch.png",
+      "w": 355,
+      "h": 355,
+      "anchor": {
+        "x": 0.501408,
+        "y": 0.797183
+      },
+      "visualBaselineY": 0.9887323943661972
+    },
+    "MarbleArchSideways": {
+      "file": "sprites/decor/MarbleArchSideways.png",
+      "w": 97,
+      "h": 586,
+      "anchor": {
+        "x": 0.494845,
+        "y": 0.737201
+      },
+      "visualBaselineY": 0.9914675767918089
+    },
+    "MarbleBench": {
+      "file": "sprites/decor/MarbleBench.png",
+      "w": 265,
+      "h": 197,
+      "anchor": {
+        "x": 0.501887,
+        "y": 0.720812
+      },
+      "visualBaselineY": 0.9796954314720813
+    },
+    "MarbleBenchBackwards": {
+      "file": "sprites/decor/MarbleBenchBackwards.png",
+      "w": 256,
+      "h": 196,
+      "anchor": {
+        "x": 0.503906,
+        "y": 0.719388
+      },
+      "visualBaselineY": 0.9795918367346939
+    },
+    "MarbleBenchSideways": {
+      "file": "sprites/decor/MarbleBenchSideways.png",
+      "w": 123,
+      "h": 340,
+      "anchor": {
+        "x": 0.504065,
+        "y": 0.614706
+      },
+      "visualBaselineY": 0.9911764705882353
+    },
+    "MarbleBlobling": {
+      "file": "sprites/decor/MarbleBlobling.png",
+      "w": 231,
+      "h": 294,
+      "anchor": {
+        "x": 0.484043,
+        "y": 0.86
+      },
+      "visualBaselineY": 0.9795918367346939
+    },
+    "MarbleBridge": {
+      "file": "sprites/decor/MarbleBridge.png",
+      "w": 286,
+      "h": 300,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.78
+      },
+      "visualBaselineY": 0.9966666666666667
+    },
+    "MarbleBridgeSideways": {
+      "file": "sprites/decor/MarbleBridgeSideways.png",
+      "w": 192,
+      "h": 420,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.66
+      },
+      "visualBaselineY": 0.9857142857142858
+    },
+    "MarbleCaribou": {
+      "file": "sprites/decor/MarbleCaribou.png",
+      "w": 175,
+      "h": 403,
+      "anchor": {
+        "x": 0.528736,
+        "y": 0.8975
+      },
+      "visualBaselineY": 0.9776674937965261
+    },
+    "MarbleFountain": {
+      "file": "sprites/decor/MarbleFountain.png",
+      "w": 439,
+      "h": 640,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7699579831932774
+      },
+      "visualBaselineY": 0.971875
+    },
+    "MarbleKnight": {
+      "file": "sprites/decor/MarbleKnight.png",
+      "w": 227,
+      "h": 444,
+      "anchor": {
+        "x": 0.365639,
+        "y": 0.906
+      },
+      "visualBaselineY": 0.9887387387387387
+    },
+    "MarbleLampPost": {
+      "file": "sprites/decor/MarbleLampPost.png",
+      "w": 310,
+      "h": 395,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.88
+      },
+      "visualBaselineY": 0.9848101265822785
+    },
+    "MarblePedestal": {
+      "file": "sprites/decor/MarblePedestal.png",
+      "w": 106,
+      "h": 217,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.87788
+      },
+      "visualBaselineY": 1
+    },
+    "MediumGravestone": {
+      "file": "sprites/decor/MediumGravestone.png",
+      "w": 155,
+      "h": 187,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.86
+      },
+      "visualBaselineY": 0.9786096256684492
+    },
+    "MediumGravestoneSideways": {
+      "file": "sprites/decor/MediumGravestoneSideways.png",
+      "w": 64,
+      "h": 225,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.71
+      },
+      "visualBaselineY": 0.9911111111111112
+    },
+    "MediumRock": {
+      "file": "sprites/decor/MediumRock.png",
+      "w": 203,
+      "h": 162,
+      "anchor": {
+        "x": 0.502463,
+        "y": 0.65
+      },
+      "visualBaselineY": 0.9382716049382716
+    },
+    "MiniFairyCastle": {
+      "file": "sprites/decor/MiniFairyCastle.png",
+      "w": 242,
+      "h": 467,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.79
+      },
+      "visualBaselineY": 0.9721627408993576
+    },
+    "MiniFairyCottage": {
+      "file": "sprites/decor/MiniFairyCottage.png",
+      "w": 127,
+      "h": 172,
+      "anchor": {
+        "x": 0.519685,
+        "y": 0.72
+      },
+      "visualBaselineY": 0.9709302325581395
+    },
+    "MiniFairyForge": {
+      "file": "sprites/decor/MiniFairyForge.png",
+      "w": 187,
+      "h": 240,
+      "anchor": {
+        "x": 0.492188,
+        "y": 0.74
+      },
+      "visualBaselineY": 0.9666666666666667
+    },
+    "MiniFairyKeep": {
+      "file": "sprites/decor/MiniFairyKeep.png",
+      "w": 204,
+      "h": 252,
+      "anchor": {
+        "x": 0.514706,
+        "y": 0.79
+      },
+      "visualBaselineY": 0.9682539682539683
+    },
+    "MiniWizardTower": {
+      "file": "sprites/decor/MiniWizardTower.png",
+      "w": 198,
+      "h": 423,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.82
+      },
+      "visualBaselineY": 0.983451536643026
+    },
+    "PaperLantern": {
+      "file": "sprites/decor/PaperLantern.png",
+      "w": 299,
+      "h": 325,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96615
+      },
+      "visualBaselineY": 0.9507692307692308
+    },
+    "PaperLanternSideways": {
+      "file": "sprites/decor/PaperLanternSideways.png",
+      "w": 204,
+      "h": 586,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.76
+      },
+      "visualBaselineY": 0.9726962457337884
+    },
+    "PetHutch": {
+      "file": "sprites/decor/PetHutch.png",
+      "w": 279,
+      "h": 405,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.726
+      },
+      "visualBaselineY": 0.9827160493827161
+    },
+    "PetHutch_1": {
+      "file": "sprites/decor/PetHutch_1.png",
+      "w": 279,
+      "h": 455,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.759925
+      },
+      "visualBaselineY": 0.9846153846153847
+    },
+    "PetHutch_2": {
+      "file": "sprites/decor/PetHutch_2.png",
+      "w": 279,
+      "h": 525,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7925
+      },
+      "visualBaselineY": 0.9866666666666667
+    },
+    "PetHutch_3": {
+      "file": "sprites/decor/PetHutch_3.png",
+      "w": 296,
+      "h": 609,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.82
+      },
+      "visualBaselineY": 0.9967159277504105
+    },
+    "SeedSilo": {
+      "file": "sprites/decor/SeedSilo.png",
+      "w": 265,
+      "h": 461,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.766
+      },
+      "visualBaselineY": 0.9869848156182213
+    },
+    "SeedSilo_1": {
+      "file": "sprites/decor/SeedSilo_1.png",
+      "w": 264,
+      "h": 568,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.8095
+      },
+      "visualBaselineY": 0.9894366197183099
+    },
+    "SeedSilo_2": {
+      "file": "sprites/decor/SeedSilo_2.png",
+      "w": 268,
+      "h": 598,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.819
+      },
+      "visualBaselineY": 0.9899665551839465
+    },
+    "SeedSilo_3": {
+      "file": "sprites/decor/SeedSilo_3.png",
+      "w": 268,
+      "h": 638,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.83
+      },
+      "visualBaselineY": 0.9905956112852664
+    },
+    "SmallGravestone": {
+      "file": "sprites/decor/SmallGravestone.png",
+      "w": 138,
+      "h": 151,
+      "anchor": {
+        "x": 0.50365,
+        "y": 0.82
+      },
+      "visualBaselineY": 0.9668874172185431
+    },
+    "SmallGravestoneSideways": {
+      "file": "sprites/decor/SmallGravestoneSideways.png",
+      "w": 64,
+      "h": 194,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.751295
+      },
+      "visualBaselineY": 0.979381443298969
+    },
+    "SmallRock": {
+      "file": "sprites/decor/SmallRock.png",
+      "w": 133,
+      "h": 115,
+      "anchor": {
+        "x": 0.496241,
+        "y": 0.65
+      },
+      "visualBaselineY": 0.9391304347826087
+    },
+    "StoneArch": {
+      "file": "sprites/decor/StoneArch.png",
+      "w": 356,
+      "h": 355,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.8
+      },
+      "visualBaselineY": 0.9887323943661972
+    },
+    "StoneArchSideways": {
+      "file": "sprites/decor/StoneArchSideways.png",
+      "w": 97,
+      "h": 583,
+      "anchor": {
+        "x": 0.484536,
+        "y": 0.737564
+      },
+      "visualBaselineY": 0.9897084048027445
+    },
+    "StoneBench": {
+      "file": "sprites/decor/StoneBench.png",
+      "w": 257,
+      "h": 150,
+      "anchor": {
+        "x": 0.498054,
+        "y": 0.646667
+      },
+      "visualBaselineY": 0.98
+    },
+    "StoneBenchSideways": {
+      "file": "sprites/decor/StoneBenchSideways.png",
+      "w": 117,
+      "h": 306,
+      "anchor": {
+        "x": 0.504274,
+        "y": 0.578431
+      },
+      "visualBaselineY": 0.9967320261437909
+    },
+    "StoneBirdBath": {
+      "file": "sprites/decor/StoneBirdBath.png",
+      "w": 317,
+      "h": 640,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.8622950819672132
+      },
+      "visualBaselineY": 0.9828125
+    },
+    "StoneBridge": {
+      "file": "sprites/decor/StoneBridge.png",
+      "w": 286,
+      "h": 300,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.78
+      },
+      "visualBaselineY": 0.9966666666666667
+    },
+    "StoneBridgeSideways": {
+      "file": "sprites/decor/StoneBridgeSideways.png",
+      "w": 193,
+      "h": 420,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.66
+      },
+      "visualBaselineY": 0.9833333333333333
+    },
+    "StoneCaribou": {
+      "file": "sprites/decor/StoneCaribou.png",
+      "w": 169,
+      "h": 370,
+      "anchor": {
+        "x": 0.526627,
+        "y": 0.889189
+      },
+      "visualBaselineY": 0.9756756756756757
+    },
+    "StoneFirepit": {
+      "file": "sprites/decor/StoneFirepit.png",
+      "w": 504,
+      "h": 640,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.79
+      },
+      "visualBaselineY": 0.971875
+    },
+    "StoneGnome": {
+      "file": "sprites/decor/StoneGnome.png",
+      "w": 178,
+      "h": 245,
+      "anchor": {
+        "x": 0.506173,
+        "y": 0.8
+      },
+      "visualBaselineY": 0.9387755102040817
+    },
+    "StoneGnomess": {
+      "file": "sprites/decor/StoneGnomess.png",
+      "w": 163,
+      "h": 272,
+      "anchor": {
+        "x": 0.503067,
+        "y": 0.81
+      },
+      "visualBaselineY": 0.9632352941176471
+    },
+    "StoneLampPost": {
+      "file": "sprites/decor/StoneLampPost.png",
+      "w": 344,
+      "h": 388,
+      "anchor": {
+        "x": 0.498168,
+        "y": 0.88
+      },
+      "visualBaselineY": 0.9819587628865979
+    },
+    "StoneMoonGate": {
+      "file": "sprites/decor/StoneMoonGate.png",
+      "w": 356,
+      "h": 335,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.788
+      },
+      "visualBaselineY": 0.9850746268656716
+    },
+    "StoneMoonGateSideways": {
+      "file": "sprites/decor/StoneMoonGateSideways.png",
+      "w": 97,
+      "h": 583,
+      "anchor": {
+        "x": 0.484536,
+        "y": 0.737564
+      },
+      "visualBaselineY": 0.9897084048027445
+    },
+    "StonePedestal": {
+      "file": "sprites/decor/StonePedestal.png",
+      "w": 105,
+      "h": 212,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "visualBaselineY": 1
+    },
+    "StoneTorch": {
+      "file": "sprites/decor/StoneTorch.png",
+      "w": 312,
+      "h": 640,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.921443736730361
+      },
+      "visualBaselineY": 0.9984375
+    },
+    "StrawScarecrow": {
+      "file": "sprites/decor/StrawScarecrow.png",
+      "w": 246,
+      "h": 398,
+      "anchor": {
+        "x": 0.477124,
+        "y": 0.945378
+      },
+      "visualBaselineY": 0.9597989949748744
+    },
+    "StringLights": {
+      "file": "sprites/decor/StringLights.png",
+      "w": 299,
+      "h": 325,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96615
+      },
+      "visualBaselineY": 0.9507692307692308
+    },
+    "StringLightsSideways": {
+      "file": "sprites/decor/StringLightsSideways.png",
+      "w": 122,
+      "h": 586,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.76
+      },
+      "visualBaselineY": 0.9880546075085325
+    },
+    "ToolShack": {
+      "file": "sprites/decor/ToolShack.png",
+      "w": 273,
+      "h": 479,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.766482
+      },
+      "visualBaselineY": 0.9791231732776617
+    },
+    "ToolShack_1": {
+      "file": "sprites/decor/ToolShack_1.png",
+      "w": 273,
+      "h": 532,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.789734
+      },
+      "visualBaselineY": 0.981203007518797
+    },
+    "WindSpinner": {
+      "file": "sprites/decor/WindSpinner.png",
+      "w": 451,
+      "h": 640,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.960093896713615
+      },
+      "visualBaselineY": 0.965625
+    },
+    "WindTurner": {
+      "file": "sprites/decor/WindTurner.png",
+      "w": 451,
+      "h": 640,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.960093896713615
+      },
+      "visualBaselineY": 0.965625
+    },
+    "WindchimeMoon": {
+      "file": "sprites/decor/WindchimeMoon.png",
+      "w": 299,
+      "h": 325,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96615
+      },
+      "visualBaselineY": 0.9507692307692308
+    },
+    "WindchimeMoonSideways": {
+      "file": "sprites/decor/WindchimeMoonSideways.png",
+      "w": 122,
+      "h": 586,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.76
+      },
+      "visualBaselineY": 0.9726962457337884
+    },
+    "WindchimeStar": {
+      "file": "sprites/decor/WindchimeStar.png",
+      "w": 299,
+      "h": 325,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96615
+      },
+      "visualBaselineY": 0.9507692307692308
+    },
+    "WindchimeStarSideways": {
+      "file": "sprites/decor/WindchimeStarSideways.png",
+      "w": 122,
+      "h": 586,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.76
+      },
+      "visualBaselineY": 0.9863481228668942
+    },
+    "WoodArch": {
+      "file": "sprites/decor/WoodArch.png",
+      "w": 296,
+      "h": 376,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.816489
+      },
+      "visualBaselineY": 0.9920212765957447
+    },
+    "WoodArchSide": {
+      "file": "sprites/decor/WoodArchSide.png",
+      "w": 173,
+      "h": 533,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.716698
+      },
+      "visualBaselineY": 0.9906191369606003
+    },
+    "WoodBench": {
+      "file": "sprites/decor/WoodBench.png",
+      "w": 258,
+      "h": 236,
+      "anchor": {
+        "x": 0.496124,
+        "y": 0.766949
+      },
+      "visualBaselineY": 0.9830508474576272
+    },
+    "WoodBenchBackwards": {
+      "file": "sprites/decor/WoodBenchBackwards.png",
+      "w": 259,
+      "h": 150,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.646667
+      },
+      "visualBaselineY": 0.98
+    },
+    "WoodBenchSideways": {
+      "file": "sprites/decor/WoodBenchSideways.png",
+      "w": 147,
+      "h": 375,
+      "anchor": {
+        "x": 0.591837,
+        "y": 0.650667
+      },
+      "visualBaselineY": 0.984
+    },
+    "WoodBridge": {
+      "file": "sprites/decor/WoodBridge.png",
+      "w": 286,
+      "h": 300,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.78
+      },
+      "visualBaselineY": 0.9966666666666667
+    },
+    "WoodBridgeSideways": {
+      "file": "sprites/decor/WoodBridgeSideways.png",
+      "w": 192,
+      "h": 420,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.66
+      },
+      "visualBaselineY": 0.9857142857142858
+    },
+    "WoodCaribou": {
+      "file": "sprites/decor/WoodCaribou.png",
+      "w": 164,
+      "h": 331,
+      "anchor": {
+        "x": 0.54878,
+        "y": 0.900302
+      },
+      "visualBaselineY": 0.9788519637462235
+    },
+    "WoodFrog": {
+      "file": "sprites/decor/WoodFrog.png",
+      "w": 215,
+      "h": 182,
+      "anchor": {
+        "x": 0.502326,
+        "y": 0.74
+      },
+      "visualBaselineY": 0.9395604395604396
+    },
+    "WoodLampPost": {
+      "file": "sprites/decor/WoodLampPost.png",
+      "w": 344,
+      "h": 387,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.88
+      },
+      "visualBaselineY": 0.9819121447028424
+    },
+    "WoodOwl": {
+      "file": "sprites/decor/WoodOwl.png",
+      "w": 179,
+      "h": 190,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.75
+      },
+      "visualBaselineY": 0.9210526315789473
+    },
+    "WoodPergola": {
+      "file": "sprites/decor/WoodPergola.png",
+      "w": 361,
+      "h": 617,
+      "anchor": {
+        "x": 0.504155,
+        "y": 0.753241
+      },
+      "visualBaselineY": 0.9740680713128039
+    },
+    "WoodStool": {
+      "file": "sprites/decor/WoodStool.png",
+      "w": 132,
+      "h": 211,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.823886
+      },
+      "visualBaselineY": 0.957345971563981
+    },
+    "WoodStoolShort": {
+      "file": "sprites/decor/WoodStoolShort.png",
+      "w": 100,
+      "h": 105,
+      "anchor": {
+        "x": 0.496928,
+        "y": 0.723083
+      },
+      "visualBaselineY": 0.8857142857142857
+    },
+    "WoodWindmill": {
+      "file": "sprites/decor/WoodWindmill.png",
+      "w": 592,
+      "h": 640,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.8451443569553806
+      },
+      "visualBaselineY": 0.9734375
+    }
+  },
+  "decor": [
+    {
+      "decorId": "FanousLantern",
+      "name": "Fanous Lantern",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "FanousLantern",
+      "rotationVariants": {
+        "90": {
+          "sprite": "FanousLanternSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "FanousLantern",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "FanousLanternSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "HayBale",
+      "name": "Hay Bale",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "HayBale",
+      "rotationVariants": {
+        "90": {
+          "sprite": "HayBaleSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "HayBale",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "HayBaleSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "LargeRock",
+      "name": "Large Garden Rock",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "LargeRock",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MediumRock",
+      "name": "Medium Garden Rock",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MediumRock",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "PaperLantern",
+      "name": "Paper Lantern",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "PaperLantern",
+      "rotationVariants": {
+        "90": {
+          "sprite": "PaperLanternSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "PaperLantern",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "PaperLanternSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "WoodStoolShort",
+      "name": "Short Wood Stool",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodStoolShort",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "SmallRock",
+      "name": "Small Garden Rock",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "SmallRock",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "SmallGravestone",
+      "name": "Small Gravestone",
+      "rarity": "Common",
+      "shops": [
+        "Thunder"
+      ],
+      "oneTime": false,
+      "sprite": "SmallGravestone",
+      "rotationVariants": {
+        "90": {
+          "sprite": "SmallGravestoneSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "SmallGravestone",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "SmallGravestoneSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "StringLights",
+      "name": "String Lights",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StringLights",
+      "rotationVariants": {
+        "90": {
+          "sprite": "StringLightsSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "StringLights",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "StringLightsSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "WoodStool",
+      "name": "Tall Wood Stool",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodStool",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WoodArch",
+      "name": "Wood Arch",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodArch",
+      "rotationVariants": {
+        "90": {
+          "sprite": "WoodArchSide",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "WoodArch",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "WoodArchSide"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "WoodBench",
+      "name": "Wood Bench",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodBench",
+      "rotationVariants": {
+        "90": {
+          "sprite": "WoodBenchSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "WoodBenchBackwards"
+        },
+        "270": {
+          "sprite": "WoodBenchSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "WoodBirdhouse",
+      "name": "Wood Birdhouse",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "Birdhouse",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WoodBridge",
+      "name": "Wood Bridge",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodBridge",
+      "rotationVariants": {
+        "90": {
+          "sprite": "WoodBridgeSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "WoodBridge",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "WoodBridgeSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "WoodCaribou",
+      "name": "Wood Caribou",
+      "rarity": "Common",
+      "shops": [
+        "Snow"
+      ],
+      "oneTime": false,
+      "sprite": "WoodCaribou",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WoodFrog",
+      "name": "Wood Frog",
+      "rarity": "Common",
+      "shops": [
+        "Rain"
+      ],
+      "oneTime": false,
+      "sprite": "WoodFrog",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WoodLampPost",
+      "name": "Wood Lamp Post",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodLampPost",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WoodOwl",
+      "name": "Wood Owl",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodOwl",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WoodPergola",
+      "name": "Wood Pergola",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodPergola",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WoodWindmill",
+      "name": "Wood Windmill",
+      "rarity": "Common",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "WoodWindmill",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "ColoredStringLights",
+      "name": "Colored String Lights",
+      "rarity": "Uncommon",
+      "shops": [
+        "Snow"
+      ],
+      "oneTime": false,
+      "sprite": "ColoredStringLights",
+      "rotationVariants": {
+        "90": {
+          "sprite": "ColoredStringLightsSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "ColoredStringLights",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "ColoredStringLightsSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "MediumGravestone",
+      "name": "Medium Gravestone",
+      "rarity": "Uncommon",
+      "shops": [
+        "Thunder"
+      ],
+      "oneTime": false,
+      "sprite": "MediumGravestone",
+      "rotationVariants": {
+        "90": {
+          "sprite": "MediumGravestoneSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "MediumGravestone",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "MediumGravestoneSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "StoneArch",
+      "name": "Stone Arch",
+      "rarity": "Uncommon",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StoneArch",
+      "rotationVariants": {
+        "90": {
+          "sprite": "StoneArchSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "StoneArch",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "StoneArchSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "StoneBench",
+      "name": "Stone Bench",
+      "rarity": "Uncommon",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StoneBench",
+      "rotationVariants": {
+        "90": {
+          "sprite": "StoneBenchSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "StoneBench",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "StoneBenchSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "StoneBirdbath",
+      "name": "Stone Birdbath",
+      "rarity": "Uncommon",
+      "shops": [
+        "Rain"
+      ],
+      "oneTime": false,
+      "sprite": "StoneBirdBath",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "StoneBridge",
+      "name": "Stone Bridge",
+      "rarity": "Uncommon",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StoneBridge",
+      "rotationVariants": {
+        "90": {
+          "sprite": "StoneBridgeSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "StoneBridge",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "StoneBridgeSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "StoneCaribou",
+      "name": "Stone Caribou",
+      "rarity": "Uncommon",
+      "shops": [
+        "Snow"
+      ],
+      "oneTime": false,
+      "sprite": "StoneCaribou",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "StoneGnome",
+      "name": "Stone Gnome",
+      "rarity": "Uncommon",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StoneGnome",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "StoneGnomess",
+      "name": "Stone Gnomess",
+      "rarity": "Uncommon",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StoneGnomess",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "StoneLampPost",
+      "name": "Stone Lamp Post",
+      "rarity": "Uncommon",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StoneLampPost",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "StonePedestal",
+      "name": "Stone Pedestal",
+      "rarity": "Uncommon",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StonePedestal",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "FeedingTrough",
+      "name": "Feeding Trough",
+      "rarity": "Rare",
+      "shops": [
+        "Tool"
+      ],
+      "oneTime": true,
+      "sprite": "FeedingTrough",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "LargeGravestone",
+      "name": "Large Gravestone",
+      "rarity": "Rare",
+      "shops": [
+        "Thunder"
+      ],
+      "oneTime": false,
+      "sprite": "LargeGravestone",
+      "rotationVariants": {
+        "90": {
+          "sprite": "LargeGravestoneSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "LargeGravestone",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "LargeGravestoneSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "MarbleArch",
+      "name": "Marble Arch",
+      "rarity": "Rare",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MarbleArch",
+      "rotationVariants": {
+        "90": {
+          "sprite": "MarbleArchSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "MarbleArch",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "MarbleArchSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "MarbleBench",
+      "name": "Marble Bench",
+      "rarity": "Rare",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MarbleBench",
+      "rotationVariants": {
+        "90": {
+          "sprite": "MarbleBenchSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "MarbleBenchBackwards"
+        },
+        "270": {
+          "sprite": "MarbleBenchSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "MarbleBlobling",
+      "name": "Marble Blobling",
+      "rarity": "Rare",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MarbleBlobling",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MarbleBridge",
+      "name": "Marble Bridge",
+      "rarity": "Rare",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MarbleBridge",
+      "rotationVariants": {
+        "90": {
+          "sprite": "MarbleBridgeSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "MarbleBridge",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "MarbleBridgeSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "MarbleCaribou",
+      "name": "Marble Caribou",
+      "rarity": "Rare",
+      "shops": [
+        "Snow"
+      ],
+      "oneTime": false,
+      "sprite": "MarbleCaribou",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MarbleFountain",
+      "name": "Marble Fountain",
+      "rarity": "Rare",
+      "shops": [
+        "Rain"
+      ],
+      "oneTime": false,
+      "sprite": "MarbleFountain",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MarbleKnight",
+      "name": "Marble Knight",
+      "rarity": "Rare",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MarbleKnight",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MarbleLampPost",
+      "name": "Marble Lamp Post",
+      "rarity": "Rare",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MarbleLampPost",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MarblePedestal",
+      "name": "Marble Pedestal",
+      "rarity": "Rare",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MarblePedestal",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MiniFairyCottage",
+      "name": "Mini Fairy Cottage",
+      "rarity": "Rare",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MiniFairyCottage",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WindchimeMoon",
+      "name": "Moon Windchime",
+      "rarity": "Rare",
+      "shops": [
+        "Thunder"
+      ],
+      "oneTime": false,
+      "sprite": "WindchimeMoon",
+      "rotationVariants": {
+        "90": {
+          "sprite": "WindchimeMoonSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "WindchimeMoon",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "WindchimeMoonSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "WindchimeStar",
+      "name": "Star Windchime",
+      "rarity": "Rare",
+      "shops": [
+        "Thunder"
+      ],
+      "oneTime": false,
+      "sprite": "WindchimeStar",
+      "rotationVariants": {
+        "90": {
+          "sprite": "WindchimeStarSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "WindchimeStar",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "WindchimeStarSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "Cauldron",
+      "name": "Cauldron",
+      "rarity": "Legendary",
+      "shops": [
+        "Thunder"
+      ],
+      "oneTime": false,
+      "sprite": "Cauldron",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MiniFairyForge",
+      "name": "Mini Fairy Forge",
+      "rarity": "Legendary",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MiniFairyForge",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "StoneMoonGate",
+      "name": "Stone Moon Gate",
+      "rarity": "Legendary",
+      "shops": [
+        "Amber"
+      ],
+      "oneTime": false,
+      "sprite": "StoneMoonGate",
+      "rotationVariants": {
+        "90": {
+          "sprite": "StoneMoonGateSideways",
+          "flipH": true
+        },
+        "180": {
+          "sprite": "StoneMoonGate",
+          "flipH": true
+        },
+        "270": {
+          "sprite": "StoneMoonGateSideways"
+        }
+      },
+      "tiers": []
+    },
+    {
+      "decorId": "StrawScarecrow",
+      "name": "Straw Scarecrow",
+      "rarity": "Legendary",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "StrawScarecrow",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MiniFairyKeep",
+      "name": "Mini Fairy Keep",
+      "rarity": "Mythic",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MiniFairyKeep",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "MiniWizardTower",
+      "name": "Mini Wizard Tower",
+      "rarity": "Mythic",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MiniWizardTower",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "StoneTorch",
+      "name": "Stone Torch",
+      "rarity": "Mythic",
+      "shops": [
+        "Amber"
+      ],
+      "oneTime": false,
+      "sprite": "StoneTorch",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "WindSpinner",
+      "name": "Wind Spinner",
+      "rarity": "Mythic",
+      "shops": [
+        "Thunder"
+      ],
+      "oneTime": false,
+      "sprite": "WindSpinner",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "DecorShed",
+      "name": "Decor Shed",
+      "rarity": "Divine",
+      "shops": [
+        "Tool"
+      ],
+      "oneTime": true,
+      "sprite": "DecorShed",
+      "rotationVariants": {},
+      "tiers": [
+        {
+          "label": "25 slots",
+          "sprite": "DecorShed_1"
+        },
+        {
+          "label": "50 slots",
+          "sprite": "DecorShed_2"
+        }
+      ]
+    },
+    {
+      "decorId": "MiniFairyCastle",
+      "name": "Mini Fairy Castle",
+      "rarity": "Divine",
+      "shops": [
+        "Decor"
+      ],
+      "oneTime": false,
+      "sprite": "MiniFairyCastle",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "PetHutch",
+      "name": "Pet Hutch",
+      "rarity": "Divine",
+      "shops": [
+        "Tool"
+      ],
+      "oneTime": true,
+      "sprite": "PetHutch",
+      "rotationVariants": {},
+      "tiers": [
+        {
+          "label": "25 slots",
+          "sprite": "PetHutch_1"
+        },
+        {
+          "label": "50 slots",
+          "sprite": "PetHutch_2"
+        },
+        {
+          "label": "100 slots",
+          "sprite": "PetHutch_3"
+        }
+      ]
+    },
+    {
+      "decorId": "SeedSilo",
+      "name": "Seed Silo",
+      "rarity": "Divine",
+      "shops": [
+        "Tool"
+      ],
+      "oneTime": true,
+      "sprite": "SeedSilo",
+      "rotationVariants": {},
+      "tiers": [
+        {
+          "label": "25 slots",
+          "sprite": "SeedSilo_1"
+        },
+        {
+          "label": "50 slots",
+          "sprite": "SeedSilo_2"
+        },
+        {
+          "label": "100 slots",
+          "sprite": "SeedSilo_3"
+        }
+      ]
+    },
+    {
+      "decorId": "StoneFirepit",
+      "name": "Stone Firepit",
+      "rarity": "Divine",
+      "shops": [
+        "Amber"
+      ],
+      "oneTime": false,
+      "sprite": "StoneFirepit",
+      "rotationVariants": {},
+      "tiers": []
+    },
+    {
+      "decorId": "ToolShack",
+      "name": "Tool Shack",
+      "rarity": "Divine",
+      "shops": [
+        "Tool"
+      ],
+      "oneTime": true,
+      "sprite": "ToolShack",
+      "rotationVariants": {},
+      "tiers": [
+        {
+          "label": "25 slots",
+          "sprite": "ToolShack_1"
+        }
+      ]
+    },
+    {
+      "decorId": "WindTurner",
+      "name": "Wind Turner",
+      "rarity": "Divine",
+      "shops": [
+        "Thunder"
+      ],
+      "oneTime": false,
+      "sprite": "WindTurner",
+      "rotationVariants": {},
+      "tiers": []
+    }
+  ]
+}
