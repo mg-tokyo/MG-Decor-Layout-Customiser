@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "gameVersion": "1118",
-  "generatedAt": "2026-09-08T15:53:08.803Z",
+  "gameVersion": "1121",
+  "generatedAt": "2026-09-08T20:37:35.407Z",
   "tileSize": 256,
   "edgeSnapDecorIds": [
     "ColoredStringLights",
